@@ -149,28 +149,43 @@ Ensure these connections are mapped to environment‑specific resources.
 
 ---
 
-🧠 AI Prompt Reference Materials
-This repository includes reference materials under the /docs folder to support AI‑based meeting transcription summarization and translation.
-These files can be used to:
+## 🧠 AI Prompt Reference Materials
 
-Improve AI transcription summarization accuracy
-Align output formatting with organizational meeting minutes style
-Support domain‑specific terminology and phrasing
-Provide structured few‑shot prompt examples for AI Builder or Azure OpenAI prompt execution
+This repository includes reference materials under the `/docs` folder to support:
 
-📂 Reference Files
+- AI‑based meeting transcription summarization  
+- Translation output formatting  
+- Domain‑specific terminology alignment  
+- Structured few‑shot prompt examples for AI Builder  
 
+---
 
-docs/友達-響應風災內部檢討會.mp3        Sample meeting audio for transcription
-docs/AUO會議紀錄Template.docx          Example meeting minutes format for structured summarization
+### 📂 Reference Files
 
-💡 Usage
+| File | Description |
+|------|-------------|
+| docs/友達-響應鳳岐內部採訪音.mp3 | Sample meeting audio for transcription |
+| docs/AUO會議紀錄Template.docx | Example meeting minutes format for structured summarization |
+
+---
+
+### 💡 Usage
+
 You may reference the meeting minutes template as part of your AI Prompt instructions when using:
+
+``
+
 Run a prompt (AI Builder)
 
 Example Prompt Instruction:
 
+
 Format the summarized output according to the AUO Meeting Minutes Template structure.
 
+---
 
-⚠️ These files are provided for prompt engineering reference only and should be replaced with environment‑specific organizational templates when deploying to production environments.
+⚠️ These files are provided for prompt engineering reference only  
+and should be replaced with environment‑specific organizational templates  
+when deploying to production environments.
+
+---
