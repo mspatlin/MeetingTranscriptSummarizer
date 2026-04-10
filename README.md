@@ -23,7 +23,7 @@ An audio file (less than 5 hours long and less than 500 MB in size) in one of th
 | SPOSiteURL-UploadFile | SharePoint Site URL | https://<your-tenant>.sharepoint.com/sites/<site> |
 | SPOLibraryName-UploadFile | SharePoint Document Library Name | MeetingVoice |
 | SpeechServiceAPIKEY | Azure Speech Service API Key | **Set during import** |
-| HTTP-FastTranscriptionAPI-EndPoint | Azure Speech API Endpoint | https://<region>.api.cognitive.microsoft.com/speechtotext/transcriptions:transcribe?api-version=2024-11-15 |
+| HTTP-FastTranscriptionAPI-EndPoint | Azure Speech API Endpoint | https://<region>.api.cognitive.microsoft.com/speechtotext/transcriptions:transcribe?api-version=2025-10-15 |
 | ContainerFolderNameInBlob | Azure Blob Container Name | audiocontainer |
 
 ---
