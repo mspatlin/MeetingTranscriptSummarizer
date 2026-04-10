@@ -149,17 +149,28 @@ Ensure these connections are mapped to environment‑specific resources.
 
 ---
 
-## 🔐 Security Best Practice
+🧠 AI Prompt Reference Materials
+This repository includes reference materials under the /docs folder to support AI‑based meeting transcription summarization and translation.
+These files can be used to:
 
-Do NOT store sensitive values such as:
+Improve AI transcription summarization accuracy
+Align output formatting with organizational meeting minutes style
+Support domain‑specific terminology and phrasing
+Provide structured few‑shot prompt examples for AI Builder or Azure OpenAI prompt execution
 
-- API Keys
-- Storage Account Keys
-- Endpoints
+📂 Reference Files
 
-directly inside the Flow or repository.
 
-Always use Environment Variables for environment‑specific configuration.
+docs/友達-響應風災內部檢討會.mp3        Sample meeting audio for transcription
+docs/AUO會議紀錄Template.docx          Example meeting minutes format for structured summarization
 
----
+💡 Usage
+You may reference the meeting minutes template as part of your AI Prompt instructions when using:
+Run a prompt (AI Builder)
 
+Example Prompt Instruction:
+
+Format the summarized output according to the AUO Meeting Minutes Template structure.
+
+
+⚠️ These files are provided for prompt engineering reference only and should be replaced with environment‑specific organizational templates when deploying to production environments.
